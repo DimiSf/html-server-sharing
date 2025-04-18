@@ -19,11 +19,14 @@ A simple project to serve files and images over a local network using Python’s
 
    ```bash
    python3 -m http.server 8000
+-----------------------------------------------------------------------------------------------
 
 3. Find your IP address:
 
    ```bash
    hostname -I
+   
+-----------------------------------------------------------------------------------------------
 
 4. From another device on the same Wi-Fi, open in browser:
 
