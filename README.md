@@ -12,3 +12,17 @@ A simple project to serve files and images over a local network using Python’s
    ```bash
    git clone https://github.com/*your-username*/html-server-sharing.git
    cd html-server-sharing
+   
+-----------------------------------------------------------------------------------------------
+
+2. Start the server:
+
+python3 -m http.server 8000
+
+3. Find your IP address:
+
+hostname -I
+
+4. From another device on the same Wi-Fi, open in browser:
+
+http://<your-ip>:8000
